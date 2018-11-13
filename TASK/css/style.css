@@ -1,0 +1,169 @@
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Xstra Small devices (landscape phones, 576px and up)
+@media (min-width: 430px) { ... }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.layout-1 {
+	position: relative;
+    width: 100%;
+    height: 540px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 150px;
+    padding-left: 320px;
+}
+
+.layout-2 {
+	position: relative;
+    width: 100%;
+    height: 540px;
+    background-color: lightgrey;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.layout-3 {
+	
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+   top: 100px
+   padding-top: 100px;
+    
+}
+
+
+.line {
+	border: 3px;
+	border-color: lightblue;
+
+	width: 10%;
+}
+
+.box1 {
+	
+	height: 450px
+	width: 100%
+	display: inline-block;
+}
+
+
+ .coloricon i {
+ 	color: lightblue
+ }
+
+ .signupsubmit {
+        webkit-appearance: none;
+        align-items: flex-start;
+        background-attachment: scroll;
+        background-clip: border-box;
+        background-color: #FFA500;
+        background-origin: padding-box;
+        background-size: auto;
+        border-bottom-color: black;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+        border-image-outset: 0px;
+        border-image-repeat: stretch;
+        border-image-slice: 100%;
+        border-image-source: none;
+        border-image-width: 1;
+        border-left-color: black;
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-right-color: black;
+        border-right-style: solid;
+        border-right-width: 1px;
+        border-top-color: black;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-top-style: solid;
+        border-top-width: 1px;
+        box-shadow: #80B2FF 0px 1px 1px 0px inset;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        direction: ltr;
+        display: inline-block;
+        font-family: 'Arial', 'Helvetica Neue', 'Segoe UI', 'Malgun Gothic', Meiryo, 'Microsoft JhengHei', helvetica, arial, sans-serif;
+        font-size: 12px;
+        font-stretch: normal;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        height: 31px;
+        letter-spacing: 1px;
+        line-height: 15.12px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 10px;
+        min-width: 194px;
+        padding-bottom: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 7px;
+        position: relative;
+        text-align: center;
+        text-indent: 0px;
+        text-rendering: optimizeLegibility;
+        text-shadow: rgba(0, 0, 0, 0.498039) 0px 1px 2px;
+        text-transform: none;
+        width: 194px;
+        word-spacing: 0px;
+        writing-mode: lr-tb;
+        -webkit-writing-mode: horizontal-tb;
+        zoom: 1;
+        left: 37px;
+        top: 515px;
+        position: absolute;
+    }
+
+    .icon123 {
+    background-color:#fff;
+    border-width:1px;
+    border-style:solid;
+    border-bottom-color:#aaa;
+    border-right-color:#aaa;
+    border-top-color:#ddd;
+    border-left-color:#ddd;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}  
+#header {
+  background-image: url(../img/person.jpg)
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+ .header-icon {
+   position: absolute;
+  top:5px;
+left:10px;
+
+ }
